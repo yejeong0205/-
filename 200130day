@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>예선과 정은의 홈페이지</title>
+  <style>
+    #header{
+      padding: 50px;
+      background-color: #9370db;
+      border: 50px solid #7fffd4;
+    }
+    #main{
+      border: 50px solid #9370db;
+      background-color: #9370db;
+    }
+    #date{
+      border: 10px solid #702db6;
+      padding: 0px 15px 10px 15px;
+      background-color: #f9f9e9;
+    }
+    #imgD{
+      width: 200px; 
+      height: 150px;
+      background-color: #f51245;
+}
+  </style>
+</head>
+<body>
+  <div id = "header">
+    예선 & 정은
+  </div>
+  <div id = "main">
+    <div id = "date">
+      <h3>200130</h3>
+      <div id = "imgD">이미지 박스</div>
+      <p>내용 쓸 공간</p>
+    </div>
+  </div>
+</body>
+</html>
