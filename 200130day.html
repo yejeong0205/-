@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>예선과 정은의 홈페이지</title>
   <style>
+    body {
+      padding: 0;
+    }
     #header{
       padding: 50px;
       background-color: #9370db;
@@ -23,6 +26,17 @@
       height: 150px;
       background-color: #f51245;
 }
+    @media (max-width: 786px) {
+      #header{
+        padding:20px;
+        border: 20px solid #7fffd4;
+      }
+      #main{
+        display: block;
+        border: 20px solid #9370db;
+      }
+      #date{margin: 0 0 20px 0;}
+    }
   </style>
 </head>
 <body>
